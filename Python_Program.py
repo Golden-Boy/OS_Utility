@@ -1,6 +1,4 @@
 import argparse,shutil,sys,os
-#file = r'C:/Users/Justice/Downloads/NewTextDocument.txt'
-#destination = r'C:/Users/Justice/Desktop'
 
 def copy_file(filename, destination):
     try:
@@ -47,8 +45,3 @@ def Main():
 
 if __name__ == '__main__':
     Main()
-
-
-'''
-Add ability to search for a specific file and/or extensions and list them
-'''
